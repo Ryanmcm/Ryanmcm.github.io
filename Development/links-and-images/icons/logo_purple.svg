@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="46px" viewBox="0 0 47 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="6.00317145" y="3.75665583" width="23.333892" height="29.5364968"></rect>
+        <rect id="path-3" x="7.74340635" y="4.96547385" width="26.4101443" height="37.0474138"></rect>
+        <path d="M16.3132653,44.2300647 L42.1363946,1.02424569" id="path-5"></path>
+        <filter x="-5.5%" y="-5.4%" width="118.3%" height="110.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.324999988" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M24.3581633,44.2300647 L50.1812925,1.02424569" id="path-7"></path>
+        <filter x="-12.9%" y="-5.4%" width="118.3%" height="110.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="0.324999988" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-1" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="-1" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="30.4414966" y="21.1239224" width="6.7537415" height="1" rx="0.399359985"></rect>
+        <filter x="-7.4%" y="-51.6%" width="114.8%" height="203.1%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Web-Portfolio-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7" transform="translate(-305.000000, -14.000000)">
+            <g id="Group-3-Copy" transform="translate(293.000000, 14.000000)">
+                <g id="R" transform="translate(0.000000, 1.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask" transform="translate(17.670117, 18.524904) rotate(-330.000000) translate(-17.670117, -18.524904) "></g>
+                    <text mask="url(#mask-2)" font-family="Montserrat-ExtraLight, Montserrat" font-size="35.9423987" font-weight="300" fill="#7723A3">
+                        <tspan x="8.94690548" y="32.5539201">R</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(31.087075, 0.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask" transform="translate(20.948479, 23.489181) rotate(-330.000000) translate(-20.948479, -23.489181) "></g>
+                    <text id="M" mask="url(#mask-4)" font-family="Montserrat-ExtraLight, Montserrat" font-size="35.9423987" font-weight="300" fill="#7723A3">
+                        <tspan x="-1.88692858" y="33.3043201">M</tspan>
+                    </text>
+                </g>
+                <g id="Line" stroke-linecap="square">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use stroke="#979797" stroke-width="0.649999976" xlink:href="#path-5"></use>
+                </g>
+                <g id="Line-Copy-9" stroke-linecap="square">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use stroke="#979797" stroke-width="0.649999976" xlink:href="#path-7"></use>
+                </g>
+                <g id="Rectangle">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

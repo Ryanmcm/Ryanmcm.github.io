@@ -1,0 +1,130 @@
+/*
+
+  purple: #9012FE
+  white:  #ffffff
+  cyan:  #50E3C2
+
+
+
+*/
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.navbar-default {
+  background: transparent;
+  border-color: transparent;
+}
+
+section {
+  min-height: 100vh;
+}
+
+#intro {
+  background: url('../links-and-images/images/Profile_Picture.jpg');
+  background-size: cover;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+footer {
+  background-color: #D8D8D8;
+}
+
+#intro > btn-lg { //child selector
+  padding: 10px;
+}
+
+.arrow {
+  padding-bottom: 5px;
+  // Might need position: absolute; read pos relative vs absolute
+}
+
+.cyan {
+  color: #50E3C2;
+  padding: 0 5px;
+}
+.white {
+  color: #ffffff
+}
+.purple {
+  color: #9012FE
+}
+.label {
+  margin: 5px;
+}
+h1 {
+  font-size: 30px;
+  color: white;
+  font-family: "Ubuntu";
+}
+h2 {
+  color: purple;
+}
+h3 {
+  font-family: "Ubuntu";
+  font-size: 25px;
+  color: #5A5A5A;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+}
+h4 {
+  font-family: "Ubuntu";
+  font-size: 20px;
+  color: #5A5A5A;
+  font-weight: normal;
+}
+p {
+  font-family: "Ubuntu";
+  font-size: 20px;
+  color: #5A5A5A;
+  font-weight: lighter;
+}
+.intro_buttons {
+  padding-top:46vh;
+}
+.project {
+  margin: 5px;
+}
+.skills-box {
+  background-color: #D8D8D8;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px 30px;
+  margin: 20px;
+}
+.skills-list {
+  padding: 10px;
+}
+.social {
+}
+.testimonials {
+  padding: 20px;
+}
+.testimonial {
+Padding: 20px;
+}
+.testimonial-half {
+  padding: 15px;
+  columns: 2;
+}
+ul {
+  list-style-type: none;
+}
+.jumbotron {
+  min-height: 90vh;
+}
+.button-get-in-touch {
+  padding: 50px 0px 30px;
+}
+
+.project {
+  max-width: 368px;
+  margin: 0 auto;
+}
